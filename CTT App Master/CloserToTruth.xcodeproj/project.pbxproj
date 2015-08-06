@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5540F6E21ADF505800A123E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5540F6E11ADF505800A123E2 /* AppDelegate.swift */; };
+		5540F6E51ADF505800A123E2 /* CloserToTruth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5540F6E31ADF505800A123E2 /* CloserToTruth.xcdatamodeld */; };
+		5540F6EA1ADF505800A123E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5540F6E81ADF505800A123E2 /* Main.storyboard */; };
+		5540F6EC1ADF505800A123E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5540F6EB1ADF505800A123E2 /* Images.xcassets */; };
+		5540F6EF1ADF505800A123E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5540F6ED1ADF505800A123E2 /* LaunchScreen.xib */; };
+		5540F6FB1ADF505900A123E2 /* CloserToTruthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5540F6FA1ADF505900A123E2 /* CloserToTruthTests.swift */; };
+		5540F7071ADF508200A123E2 /* Consciousness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5540F7041ADF508200A123E2 /* Consciousness.jpg */; };
+		5540F7081ADF508200A123E2 /* Cosmos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5540F7051ADF508200A123E2 /* Cosmos.jpg */; };
+		5540F7091ADF508200A123E2 /* Meaning.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5540F7061ADF508200A123E2 /* Meaning.jpg */; };
+		5540F70D1ADF52B400A123E2 /* white hamburger.png in Resources */ = {isa = PBXBuildFile; fileRef = 5540F70B1ADF52B400A123E2 /* white hamburger.png */; };
+		5540F70E1ADF52B400A123E2 /* white bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 5540F70C1ADF52B400A123E2 /* white bookmark.png */; };
+		5540F7111ADF531500A123E2 /* BackgroundImageList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5540F7101ADF531500A123E2 /* BackgroundImageList.plist */; };
+		5540F7131ADF539700A123E2 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5540F7121ADF539700A123E2 /* ContainerViewController.swift */; };
+		5540F7151ADF53BC00A123E2 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5540F7141ADF53BC00A123E2 /* MenuViewController.swift */; };
+		5540F7171ADF541700A123E2 /* QuoteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5540F7161ADF541700A123E2 /* QuoteData.swift */; };
+		5540F7191ADF546000A123E2 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5540F7181ADF546000A123E2 /* QuoteModel.swift */; };
+		5540F71B1ADF597500A123E2 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5540F71A1ADF597500A123E2 /* DisplayViewController.swift */; };
+		5540F71D1ADF60F800A123E2 /* CTT Logo White.png in Resources */ = {isa = PBXBuildFile; fileRef = 5540F71C1ADF60F800A123E2 /* CTT Logo White.png */; };
+		555B604D1AEAE18C002B055F /* Close Button White 30.png in Resources */ = {isa = PBXBuildFile; fileRef = 555B604C1AEAE18C002B055F /* Close Button White 30.png */; };
+		555B604F1AEAE525002B055F /* Close Button White 44.png in Resources */ = {isa = PBXBuildFile; fileRef = 555B604E1AEAE525002B055F /* Close Button White 44.png */; };
+		5564655E1AE1891C0093335E /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5564655D1AE1891C0093335E /* VideoViewController.swift */; };
+		556465621AE18CD10093335E /* AuthorInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556465611AE18CD10093335E /* AuthorInfoViewController.swift */; };
+		55715F6B1AE1473C0016A956 /* Author Button White.png in Resources */ = {isa = PBXBuildFile; fileRef = 55715F6A1AE1473C0016A956 /* Author Button White.png */; };
+		55715F6F1AE148190016A956 /* Play Button White.png in Resources */ = {isa = PBXBuildFile; fileRef = 55715F6E1AE148190016A956 /* Play Button White.png */; };
+		55715F751AE14A960016A956 /* bookmark Fill White.png in Resources */ = {isa = PBXBuildFile; fileRef = 55715F741AE14A960016A956 /* bookmark Fill White.png */; };
+		557967881B3B960300C99F77 /* glyphicons-517-menu-hamburger.png in Resources */ = {isa = PBXBuildFile; fileRef = 557967871B3B960300C99F77 /* glyphicons-517-menu-hamburger.png */; };
+		5579678A1B3B960E00C99F77 /* glyphicons-221-play-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 557967891B3B960E00C99F77 /* glyphicons-221-play-button.png */; };
+		5579678C1B3B961700C99F77 /* glyphicons-193-circle-remove.png in Resources */ = {isa = PBXBuildFile; fileRef = 5579678B1B3B961700C99F77 /* glyphicons-193-circle-remove.png */; };
+		5579678E1B3B962800C99F77 /* glyphicons-20-heart-empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 5579678D1B3B962800C99F77 /* glyphicons-20-heart-empty.png */; };
+		557967901B3B985D00C99F77 /* glyphicons-7-user-add.png in Resources */ = {isa = PBXBuildFile; fileRef = 5579678F1B3B985D00C99F77 /* glyphicons-7-user-add.png */; };
+		55C7EC2B1B3DE1810015BF8D /* glyphicons-20-heart-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C7EC2A1B3DE1810015BF8D /* glyphicons-20-heart-filled.png */; };
+		55CBA2451AE17F220089665F /* Close Button White 4042.png in Resources */ = {isa = PBXBuildFile; fileRef = 55CBA2441AE17F220089665F /* Close Button White 4042.png */; };
+		78041DE71B552380000D5AD3 /* ctt_logo_grayscale_tagline_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 78041DE61B552380000D5AD3 /* ctt_logo_grayscale_tagline_white.png */; };
+		7843AA2D1B2F3A4F007AE418 /* TaxonomyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7843AA2C1B2F3A4F007AE418 /* TaxonomyData.swift */; };
+		78460D851AE72134008EF954 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78460D841AE72134008EF954 /* Favorite.swift */; };
+		7881133C1AE8606E004C7E92 /* Favorites.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7881133B1AE8606E004C7E92 /* Favorites.plist */; };
+		789D801D1B568CE600DEB222 /* ctt_logo_single_color_tagline_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 789D801C1B568CE600DEB222 /* ctt_logo_single_color_tagline_white.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5540F6F51ADF505900A123E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5540F6D41ADF505800A123E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5540F6DB1ADF505800A123E2;
+			remoteInfo = CloserToTruth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5540F6DC1ADF505800A123E2 /* CloserToTruth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloserToTruth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5540F6E01ADF505800A123E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5540F6E11ADF505800A123E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5540F6E41ADF505800A123E2 /* CloserToTruth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CloserToTruth.xcdatamodel; sourceTree = "<group>"; };
+		5540F6E91ADF505800A123E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5540F6EB1ADF505800A123E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5540F6EE1ADF505800A123E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5540F6F41ADF505900A123E2 /* CloserToTruthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloserToTruthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5540F6F91ADF505900A123E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5540F6FA1ADF505900A123E2 /* CloserToTruthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloserToTruthTests.swift; sourceTree = "<group>"; };
+		5540F7041ADF508200A123E2 /* Consciousness.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Consciousness.jpg; sourceTree = "<group>"; };
+		5540F7051ADF508200A123E2 /* Cosmos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cosmos.jpg; sourceTree = "<group>"; };
+		5540F7061ADF508200A123E2 /* Meaning.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Meaning.jpg; sourceTree = "<group>"; };
+		5540F70B1ADF52B400A123E2 /* white hamburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white hamburger.png"; sourceTree = "<group>"; };
+		5540F70C1ADF52B400A123E2 /* white bookmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white bookmark.png"; sourceTree = "<group>"; };
+		5540F7101ADF531500A123E2 /* BackgroundImageList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BackgroundImageList.plist; sourceTree = "<group>"; };
+		5540F7121ADF539700A123E2 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		5540F7141ADF53BC00A123E2 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		5540F7161ADF541700A123E2 /* QuoteData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteData.swift; sourceTree = "<group>"; };
+		5540F7181ADF546000A123E2 /* QuoteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		5540F71A1ADF597500A123E2 /* DisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
+		5540F71C1ADF60F800A123E2 /* CTT Logo White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CTT Logo White.png"; sourceTree = "<group>"; };
+		555B604C1AEAE18C002B055F /* Close Button White 30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Close Button White 30.png"; sourceTree = "<group>"; };
+		555B604E1AEAE525002B055F /* Close Button White 44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Close Button White 44.png"; sourceTree = "<group>"; };
+		5564655D1AE1891C0093335E /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		556465611AE18CD10093335E /* AuthorInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorInfoViewController.swift; sourceTree = "<group>"; };
+		55715F6A1AE1473C0016A956 /* Author Button White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Author Button White.png"; sourceTree = "<group>"; };
+		55715F6E1AE148190016A956 /* Play Button White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play Button White.png"; sourceTree = "<group>"; };
+		55715F741AE14A960016A956 /* bookmark Fill White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bookmark Fill White.png"; sourceTree = "<group>"; };
+		557967871B3B960300C99F77 /* glyphicons-517-menu-hamburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-517-menu-hamburger.png"; sourceTree = "<group>"; };
+		557967891B3B960E00C99F77 /* glyphicons-221-play-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-221-play-button.png"; sourceTree = "<group>"; };
+		5579678B1B3B961700C99F77 /* glyphicons-193-circle-remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-193-circle-remove.png"; sourceTree = "<group>"; };
+		5579678D1B3B962800C99F77 /* glyphicons-20-heart-empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-20-heart-empty.png"; sourceTree = "<group>"; };
+		5579678F1B3B985D00C99F77 /* glyphicons-7-user-add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-7-user-add.png"; sourceTree = "<group>"; };
+		55C7EC2A1B3DE1810015BF8D /* glyphicons-20-heart-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-20-heart-filled.png"; sourceTree = "<group>"; };
+		55CBA2441AE17F220089665F /* Close Button White 4042.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Close Button White 4042.png"; sourceTree = "<group>"; };
+		78041DE61B552380000D5AD3 /* ctt_logo_grayscale_tagline_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ctt_logo_grayscale_tagline_white.png; sourceTree = "<group>"; };
+		7843AA2C1B2F3A4F007AE418 /* TaxonomyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxonomyData.swift; sourceTree = "<group>"; };
+		78460D841AE72134008EF954 /* Favorite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		7881133B1AE8606E004C7E92 /* Favorites.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Favorites.plist; sourceTree = "<group>"; };
+		789D801C1B568CE600DEB222 /* ctt_logo_single_color_tagline_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ctt_logo_single_color_tagline_white.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5540F6D91ADF505800A123E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5540F6F11ADF505900A123E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5540F6D31ADF505800A123E2 = {
+			isa = PBXGroup;
+			children = (
+				5540F6DE1ADF505800A123E2 /* CloserToTruth */,
+				5540F6F71ADF505900A123E2 /* CloserToTruthTests */,
+				5540F6DD1ADF505800A123E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5540F6DD1ADF505800A123E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5540F6DC1ADF505800A123E2 /* CloserToTruth.app */,
+				5540F6F41ADF505900A123E2 /* CloserToTruthTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5540F6DE1ADF505800A123E2 /* CloserToTruth */ = {
+			isa = PBXGroup;
+			children = (
+				5540F70A1ADF508C00A123E2 /* Background Images */,
+				5540F70F1ADF52B900A123E2 /* Icons */,
+				5540F6E11ADF505800A123E2 /* AppDelegate.swift */,
+				5540F7121ADF539700A123E2 /* ContainerViewController.swift */,
+				5540F71A1ADF597500A123E2 /* DisplayViewController.swift */,
+				5540F7141ADF53BC00A123E2 /* MenuViewController.swift */,
+				556465611AE18CD10093335E /* AuthorInfoViewController.swift */,
+				5564655D1AE1891C0093335E /* VideoViewController.swift */,
+				5540F7181ADF546000A123E2 /* QuoteModel.swift */,
+				5540F7161ADF541700A123E2 /* QuoteData.swift */,
+				7843AA2C1B2F3A4F007AE418 /* TaxonomyData.swift */,
+				78460D841AE72134008EF954 /* Favorite.swift */,
+				5540F6E81ADF505800A123E2 /* Main.storyboard */,
+				7881133B1AE8606E004C7E92 /* Favorites.plist */,
+				5540F6EB1ADF505800A123E2 /* Images.xcassets */,
+				5540F6ED1ADF505800A123E2 /* LaunchScreen.xib */,
+				5540F6E31ADF505800A123E2 /* CloserToTruth.xcdatamodeld */,
+				5540F6DF1ADF505800A123E2 /* Supporting Files */,
+				5540F7101ADF531500A123E2 /* BackgroundImageList.plist */,
+			);
+			path = CloserToTruth;
+			sourceTree = "<group>";
+		};
+		5540F6DF1ADF505800A123E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5540F6E01ADF505800A123E2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5540F6F71ADF505900A123E2 /* CloserToTruthTests */ = {
+			isa = PBXGroup;
+			children = (
+				5540F6FA1ADF505900A123E2 /* CloserToTruthTests.swift */,
+				5540F6F81ADF505900A123E2 /* Supporting Files */,
+			);
+			path = CloserToTruthTests;
+			sourceTree = "<group>";
+		};
+		5540F6F81ADF505900A123E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5540F6F91ADF505900A123E2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5540F70A1ADF508C00A123E2 /* Background Images */ = {
+			isa = PBXGroup;
+			children = (
+				5540F7041ADF508200A123E2 /* Consciousness.jpg */,
+				5540F7051ADF508200A123E2 /* Cosmos.jpg */,
+				5540F7061ADF508200A123E2 /* Meaning.jpg */,
+			);
+			name = "Background Images";
+			sourceTree = "<group>";
+		};
+		5540F70F1ADF52B900A123E2 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				789D801C1B568CE600DEB222 /* ctt_logo_single_color_tagline_white.png */,
+				78041DE61B552380000D5AD3 /* ctt_logo_grayscale_tagline_white.png */,
+				55CBA2441AE17F220089665F /* Close Button White 4042.png */,
+				555B604E1AEAE525002B055F /* Close Button White 44.png */,
+				555B604C1AEAE18C002B055F /* Close Button White 30.png */,
+				55715F6A1AE1473C0016A956 /* Author Button White.png */,
+				55715F6E1AE148190016A956 /* Play Button White.png */,
+				5540F71C1ADF60F800A123E2 /* CTT Logo White.png */,
+				5540F70B1ADF52B400A123E2 /* white hamburger.png */,
+				5540F70C1ADF52B400A123E2 /* white bookmark.png */,
+				55715F741AE14A960016A956 /* bookmark Fill White.png */,
+				557967871B3B960300C99F77 /* glyphicons-517-menu-hamburger.png */,
+				557967891B3B960E00C99F77 /* glyphicons-221-play-button.png */,
+				5579678B1B3B961700C99F77 /* glyphicons-193-circle-remove.png */,
+				5579678D1B3B962800C99F77 /* glyphicons-20-heart-empty.png */,
+				55C7EC2A1B3DE1810015BF8D /* glyphicons-20-heart-filled.png */,
+				5579678F1B3B985D00C99F77 /* glyphicons-7-user-add.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5540F6DB1ADF505800A123E2 /* CloserToTruth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5540F6FE1ADF505900A123E2 /* Build configuration list for PBXNativeTarget "CloserToTruth" */;
+			buildPhases = (
+				5540F6D81ADF505800A123E2 /* Sources */,
+				5540F6D91ADF505800A123E2 /* Frameworks */,
+				5540F6DA1ADF505800A123E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloserToTruth;
+			productName = CloserToTruth;
+			productReference = 5540F6DC1ADF505800A123E2 /* CloserToTruth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5540F6F31ADF505900A123E2 /* CloserToTruthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5540F7011ADF505900A123E2 /* Build configuration list for PBXNativeTarget "CloserToTruthTests" */;
+			buildPhases = (
+				5540F6F01ADF505900A123E2 /* Sources */,
+				5540F6F11ADF505900A123E2 /* Frameworks */,
+				5540F6F21ADF505900A123E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5540F6F61ADF505900A123E2 /* PBXTargetDependency */,
+			);
+			name = CloserToTruthTests;
+			productName = CloserToTruthTests;
+			productReference = 5540F6F41ADF505900A123E2 /* CloserToTruthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5540F6D41ADF505800A123E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = DaveScherler;
+				TargetAttributes = {
+					5540F6DB1ADF505800A123E2 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = A6L8SC274W;
+					};
+					5540F6F31ADF505900A123E2 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 5540F6DB1ADF505800A123E2;
+					};
+				};
+			};
+			buildConfigurationList = 5540F6D71ADF505800A123E2 /* Build configuration list for PBXProject "CloserToTruth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5540F6D31ADF505800A123E2;
+			productRefGroup = 5540F6DD1ADF505800A123E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5540F6DB1ADF505800A123E2 /* CloserToTruth */,
+				5540F6F31ADF505900A123E2 /* CloserToTruthTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5540F6DA1ADF505800A123E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C7EC2B1B3DE1810015BF8D /* glyphicons-20-heart-filled.png in Resources */,
+				5540F71D1ADF60F800A123E2 /* CTT Logo White.png in Resources */,
+				5540F7091ADF508200A123E2 /* Meaning.jpg in Resources */,
+				555B604D1AEAE18C002B055F /* Close Button White 30.png in Resources */,
+				5540F7071ADF508200A123E2 /* Consciousness.jpg in Resources */,
+				557967881B3B960300C99F77 /* glyphicons-517-menu-hamburger.png in Resources */,
+				5579678A1B3B960E00C99F77 /* glyphicons-221-play-button.png in Resources */,
+				78041DE71B552380000D5AD3 /* ctt_logo_grayscale_tagline_white.png in Resources */,
+				7881133C1AE8606E004C7E92 /* Favorites.plist in Resources */,
+				555B604F1AEAE525002B055F /* Close Button White 44.png in Resources */,
+				55CBA2451AE17F220089665F /* Close Button White 4042.png in Resources */,
+				5540F7111ADF531500A123E2 /* BackgroundImageList.plist in Resources */,
+				5540F6EA1ADF505800A123E2 /* Main.storyboard in Resources */,
+				5540F7081ADF508200A123E2 /* Cosmos.jpg in Resources */,
+				5540F70E1ADF52B400A123E2 /* white bookmark.png in Resources */,
+				5540F70D1ADF52B400A123E2 /* white hamburger.png in Resources */,
+				789D801D1B568CE600DEB222 /* ctt_logo_single_color_tagline_white.png in Resources */,
+				557967901B3B985D00C99F77 /* glyphicons-7-user-add.png in Resources */,
+				5579678C1B3B961700C99F77 /* glyphicons-193-circle-remove.png in Resources */,
+				5579678E1B3B962800C99F77 /* glyphicons-20-heart-empty.png in Resources */,
+				55715F6B1AE1473C0016A956 /* Author Button White.png in Resources */,
+				55715F6F1AE148190016A956 /* Play Button White.png in Resources */,
+				55715F751AE14A960016A956 /* bookmark Fill White.png in Resources */,
+				5540F6EF1ADF505800A123E2 /* LaunchScreen.xib in Resources */,
+				5540F6EC1ADF505800A123E2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5540F6F21ADF505900A123E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5540F6D81ADF505800A123E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5540F7171ADF541700A123E2 /* QuoteData.swift in Sources */,
+				7843AA2D1B2F3A4F007AE418 /* TaxonomyData.swift in Sources */,
+				5540F71B1ADF597500A123E2 /* DisplayViewController.swift in Sources */,
+				5540F7151ADF53BC00A123E2 /* MenuViewController.swift in Sources */,
+				5540F6E51ADF505800A123E2 /* CloserToTruth.xcdatamodeld in Sources */,
+				5540F7131ADF539700A123E2 /* ContainerViewController.swift in Sources */,
+				556465621AE18CD10093335E /* AuthorInfoViewController.swift in Sources */,
+				78460D851AE72134008EF954 /* Favorite.swift in Sources */,
+				5540F6E21ADF505800A123E2 /* AppDelegate.swift in Sources */,
+				5540F7191ADF546000A123E2 /* QuoteModel.swift in Sources */,
+				5564655E1AE1891C0093335E /* VideoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5540F6F01ADF505900A123E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5540F6FB1ADF505900A123E2 /* CloserToTruthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5540F6F61ADF505900A123E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5540F6DB1ADF505800A123E2 /* CloserToTruth */;
+			targetProxy = 5540F6F51ADF505900A123E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5540F6E81ADF505800A123E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5540F6E91ADF505800A123E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5540F6ED1ADF505800A123E2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5540F6EE1ADF505800A123E2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5540F6FC1ADF505900A123E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5540F6FD1ADF505900A123E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5540F6FF1ADF505900A123E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CloserToTruth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5540F7001ADF505900A123E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CloserToTruth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5540F7021ADF505900A123E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CloserToTruthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloserToTruth.app/CloserToTruth";
+			};
+			name = Debug;
+		};
+		5540F7031ADF505900A123E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CloserToTruthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloserToTruth.app/CloserToTruth";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5540F6D71ADF505800A123E2 /* Build configuration list for PBXProject "CloserToTruth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5540F6FC1ADF505900A123E2 /* Debug */,
+				5540F6FD1ADF505900A123E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5540F6FE1ADF505900A123E2 /* Build configuration list for PBXNativeTarget "CloserToTruth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5540F6FF1ADF505900A123E2 /* Debug */,
+				5540F7001ADF505900A123E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5540F7011ADF505900A123E2 /* Build configuration list for PBXNativeTarget "CloserToTruthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5540F7021ADF505900A123E2 /* Debug */,
+				5540F7031ADF505900A123E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5540F6E31ADF505800A123E2 /* CloserToTruth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5540F6E41ADF505800A123E2 /* CloserToTruth.xcdatamodel */,
+			);
+			currentVersion = 5540F6E41ADF505800A123E2 /* CloserToTruth.xcdatamodel */;
+			path = CloserToTruth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5540F6D41ADF505800A123E2 /* Project object */;
+}

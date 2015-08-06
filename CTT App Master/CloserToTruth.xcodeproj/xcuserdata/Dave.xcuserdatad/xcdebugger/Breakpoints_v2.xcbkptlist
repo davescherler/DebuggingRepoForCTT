@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CloserToTruth/MenuViewController.swift"
+            timestampString = "451595276.223444"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "MenuViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CloserToTruth.MenuViewController.quotesText.didset : Swift.Array&lt;CloserToTruth.QuoteData&gt;"
+                  moduleName = "CloserToTruth"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Dave/Desktop/Updates/CloserToTruth/CloserToTruth/MenuViewController.swift"
+                  timestampString = "450909963.693367"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CloserToTruth.MenuViewController.quotesText.materializeForSet : Swift.Array&lt;CloserToTruth.QuoteData&gt;"
+                  moduleName = "CloserToTruth"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Dave/Desktop/Updates/CloserToTruth/CloserToTruth/MenuViewController.swift"
+                  timestampString = "450909963.696574"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CloserToTruth.MenuViewController.init (CloserToTruth.MenuViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; CloserToTruth.MenuViewController"
+                  moduleName = "CloserToTruth"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Dave/Desktop/Updates/CloserToTruth/CloserToTruth/MenuViewController.swift"
+                  timestampString = "450909963.696893"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "430">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CloserToTruth.MenuViewController.init (CloserToTruth.MenuViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; CloserToTruth.MenuViewController"
+                  moduleName = "CloserToTruth"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Dave/Desktop/Updates/CloserToTruth/CloserToTruth/MenuViewController.swift"
+                  timestampString = "450909963.697168"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "366">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CloserToTruth/DisplayViewController.swift"
+            timestampString = "451522660.95354"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "DisplayViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CloserToTruth/AuthorInfoViewController.swift"
+            timestampString = "451600610.750083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "AuthorInfoViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

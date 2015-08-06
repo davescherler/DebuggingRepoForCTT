@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AB12B475-A58C-4185-8DA2-2E81F109C71A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CloserToTruth</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>14D7726CF04CE4A1C08FEB4D3431C322158ECDFB</key>
+		<string>https://github.com/CloserToTruth/ios-quote.git</string>
+		<key>828F309BE78CA798612648CA3C77910D6839EF55</key>
+		<string>https://github.com/davescherler/CTT-Project</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CloserToTruth/CloserToTruth.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>14D7726CF04CE4A1C08FEB4D3431C322158ECDFB</key>
+		<string>../../..</string>
+		<key>828F309BE78CA798612648CA3C77910D6839EF55</key>
+		<string>../../../../CTT-Project</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/CloserToTruth/ios-quote.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>14D7726CF04CE4A1C08FEB4D3431C322158ECDFB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>828F309BE78CA798612648CA3C77910D6839EF55</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CTT-Project</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>14D7726CF04CE4A1C08FEB4D3431C322158ECDFB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-quote</string>
+		</dict>
+	</array>
+</dict>
+</plist>
