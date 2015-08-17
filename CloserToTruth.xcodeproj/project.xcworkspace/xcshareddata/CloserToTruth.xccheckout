@@ -12,22 +12,34 @@
 	<dict>
 		<key>14D7726CF04CE4A1C08FEB4D3431C322158ECDFB</key>
 		<string>https://github.com/CloserToTruth/ios-quote.git</string>
+		<key>45AFA441E1BB6570A2FE813E56E66C9558ABF8E8</key>
+		<string>https://github.com/davescherler/DebuggingRepoForCTT.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>CloserToTruth.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>14D7726CF04CE4A1C08FEB4D3431C322158ECDFB</key>
+		<string>../../../ios-quote</string>
+		<key>45AFA441E1BB6570A2FE813E56E66C9558ABF8E8</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/CloserToTruth/ios-quote.git</string>
+	<string>https://github.com/davescherler/DebuggingRepoForCTT.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>14D7726CF04CE4A1C08FEB4D3431C322158ECDFB</string>
+	<string>45AFA441E1BB6570A2FE813E56E66C9558ABF8E8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>45AFA441E1BB6570A2FE813E56E66C9558ABF8E8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DebuggingRepoForCTT</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
